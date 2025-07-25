@@ -135,7 +135,7 @@ This theme is licensed under the [GNU General Public License v2 or later](https:
 ## Author
 
 **Shohanur Islam**
-- [LinkedIn Profile](https://www.linkedin.com/in/shuvo-sa-324b4617b/)
+- [LinkedIn Profile](https://www.linkedin.com/in/shohanur-islam-324b4617b/)
 
 ## Version History
 
