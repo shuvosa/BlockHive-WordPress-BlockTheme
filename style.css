@@ -1,0 +1,95 @@
+/*
+Theme Name: Blockhive
+Author: Shohanur Islam
+Author URI: https://www.linkedin.com/in/shuvo-sa-324b4617b/
+Description: Blockhive is a modern, block-based WordPress theme designed for bloggers.
+Version: 1.1.0
+Tested up to: 5.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Copyright (c) 2023 Shohanur Islam.
+Tags: block, blog, responsive, minimalist
+Text Domain: blockhive
+*/
+
+ /* Container styling */
+ #category-filter {
+    max-width: 300px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Button styling */
+  #toggle-category {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #toggle-category:hover {
+    background-color: #005a8b;
+    transform: scale(1.02);
+  }
+  
+  /* Dropdown list styling */
+  #category-list {
+    display: none; /* Initially hidden */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .wp-block-page-list:nth-child(n+5) {
+    display: none;
+}
+
+
+
+.search-modal {
+  position: fixed;
+  inset: 0; /* shorthand for top, right, bottom, left = 0 */
+  display: none; /* hidden initially */
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px); /* background blur */
+  background: rgba(255, 255, 255, 0.7); /* semi-transparent background */
+  z-index: 1000; /* ensure it’s on top */
+  padding: 1rem;
+}
+
+.search-modal.active {
+  display: flex;
+}
+
+.search-modal__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+  /* Class to hide elements */
+  .hidden {
+    display: none;
+  }

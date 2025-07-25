@@ -1,0 +1,38 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "color": "#0073aa"
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "color": "#229977"
+                }
+            ]
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "name": "Small",
+                    "slug": "small",
+                    "size": 14
+                },
+                {
+                    "name": "Regular",
+                    "slug": "regular",
+                    "size": 18
+                },
+                {
+                    "name": "Large",
+                    "slug": "large",
+                    "size": 24
+                }
+            ]
+        }
+    }
+}
